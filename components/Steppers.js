@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 import { Platform, View, TouchableOpacity, Text, StyleSheet } from 'react-native'
-import { FontAwesome, Entypo } from '@expo/vector-icons';
+import { FontAwesome, Entypo } from '@expo/vector-icons'
 import { purple, gray, white } from '../utils/colors'
 
 export default function FitSteppers({ max, unit, step, value, onIncrement, onDecrement }) {
